@@ -1,0 +1,79 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,500&family=Ubuntu&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:ital,wght@0,300;0,400;1,500&family=Roboto:ital,wght@1,100&family=Ubuntu&display=swap');
+
+body{
+    background-color: #000000;
+}
+
+  .first{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+   
+}
+ul li{
+    margin: 10px;
+    padding: 20px;
+
+}
+ul:hover{
+    cursor: pointer;
+}
+li:hover{
+    color: grey;
+}
+
+.nav{
+    background:rgba(0, 0,0, 0.7)url('https://www.creativeuncut.com/gallery-21/art/aitd-museum1.jpg');
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+   
+
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    font-size: 40px;
+}
+
+.first{
+    text-align: center;
+}
+
+h2{
+    margin-left: 40%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 4px #e4d9d9;
+    color: white;
+
+}
+.img{
+    display: grid;
+    grid-template-columns: repeat(3, 450px);
+    gap: 70px 70px;
+    margin: 20px;
+    grid-gap: 50px;
+
+}
+.collection{
+    box-shadow: 10px 10px 5px rgba(97, 103, 105, 0.407);
+}
+
+.collection:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+
+}
+
+
